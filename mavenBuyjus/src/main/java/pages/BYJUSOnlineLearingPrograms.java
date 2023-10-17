@@ -42,8 +42,8 @@ public class BYJUSOnlineLearingPrograms {
 	}
 	
 	public void clickOnOnline() {
-	WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(20));
-	wait.until(ExpectedConditions.elementToBeClickable(online));
+//	WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(20));
+//	wait.until(ExpectedConditions.elementToBeClickable(online));
 	online.click();
 	}
 	public void sendChildName() throws EncryptedDocumentException, IOException {

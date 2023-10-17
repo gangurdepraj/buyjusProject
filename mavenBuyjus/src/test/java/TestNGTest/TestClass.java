@@ -57,6 +57,7 @@ public class TestClass extends BrowserClass{
 	@Test
 	public void bookFreeSession() throws InterruptedException, EncryptedDocumentException, IOException 
 	{
+		_bYJUSOnlineLearingPrograms.clickOnOnline();
 		_bYJUSOnlineLearingPrograms.sendChildName();
 		_bYJUSOnlineLearingPrograms.sendMobileNumber();
 		_bYJUSOnlineLearingPrograms.sendEmailAddress();
